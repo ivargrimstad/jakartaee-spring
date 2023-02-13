@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dukes</groupId>
-	<artifactId>boot-duke</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>boot-duke</name>
+	<artifactId>duke-boot</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>Duke Boot</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -24,6 +24,17 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>dukes</groupId>
+			<artifactId>duke-dep</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>dukes</groupId>
+			<artifactId>duke-lib</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
