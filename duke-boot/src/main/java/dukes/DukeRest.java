@@ -27,6 +27,7 @@ public class DukeRest {
 
         accountRepository.save(account);
 
+        System.out.println("Account created with ID: " + account.getId());
         return ResponseEntity.ok("User is valid: " + user.getEmail());
     }
 
