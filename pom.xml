@@ -18,7 +18,6 @@
     <modules>
         <module>duke-boot</module>
         <module>duke-dep</module>
-        <module>duke-lib</module>
         <module>duke-spring</module>
     </modules>
 
