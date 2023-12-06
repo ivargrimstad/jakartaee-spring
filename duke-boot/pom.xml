@@ -31,11 +31,6 @@
 			<artifactId>duke-dep</artifactId>
 			<version>1.0</version>
 		</dependency>
-		<dependency>
-			<groupId>dukes</groupId>
-			<artifactId>duke-lib</artifactId>
-			<version>1.0</version>
-		</dependency>
 
 		<dependency>
 			<groupId>com.h2database</groupId>
